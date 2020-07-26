@@ -66,9 +66,6 @@ lock_file          = config['agent_disabled_lockfile']
 interval           = config['runinterval']
 statedir           = config['statedir']
 puppetmaster       = config['server']
-ca_server          = config['ca_server']
-requestdir         = config['requestdir']
-certdir            = config['certdir']
 
 if noop != target_noop_state
   json['issues']['noop'] = 'noop set to ' + noop.to_s + ' should be ' + target_noop_state.to_s

@@ -1,6 +1,6 @@
 {
   "name": "albatrossflavour-puppet_health_check",
-  "version": "0.5.2",
+  "version": "0.5.3",
 
   "author": "Tony Green",
   "summary": "Carries out basic health checks on the puppet infrastructure using tasks.  Some automated remediation activities are also possible",
@@ -84,7 +84,7 @@
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 4.7.0 < 6.0.0"
+      "version_requirement": ">= 4.7.0 < 7.0.0"
     }
   ],
   "pdk-version": "1.10.0",
